@@ -1,3 +1,3 @@
-# Responsive-Website
+# Responsive-Blog
 
-A repsonsive Blog built with CSS and Magnific
+A repsonsive blog built with HTML, CSS and Magnific Popup
