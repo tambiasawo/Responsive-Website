@@ -1,0 +1,96 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+/*Grid */
+.row img{
+	width:100%;
+	padding-right:0%;
+}
+.row{
+	padding: 2% 0;
+}
+
+.main{
+	padding:7% 0;
+
+}
+
+.main_nav{
+	padding-top: 0%;
+}
+
+.green{background: #7accc8;}
+
+.logo{
+	text-align: center;
+	padding: 5%;
+}
+
+.logo a{
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 2em;
+	border: white 3px solid;
+padding:1.5%;
+
+}
+
+img.image{
+	margin-top: 4%;
+	border-radius: 400px;
+	border: white 4px solid;
+}
+
+ul.social {
+	list-style-type:none;
+	padding-top: 4%;
+	text-align: center;
+	
+
+} 
+ul.social li{
+	display: inline;
+
+}
+
+ul.social li a{
+	font-size: 2em;
+	color: grey;
+	padding: 0 2%; 
+	
+}
+
+footer{text-align: center}
+
+li.facebook a:hover{
+	color: blue;
+}
+
+@media(max-width:600px){
+	.main
+	{
+		padding-top: 10%;
+	}
+	.portfolio{margin-bottom: 6%;}
+	img.image{margin-top: 10%;}
+	h2.bio, p.bio{text-align: center;}
+	h2.bio{margin-top:6%;}
+
+	ul.social{margin-top: 8%}
+	img.image{border-radius: 200px;}
+}
